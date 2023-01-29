@@ -8,6 +8,6 @@ class Config:
     # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:@localhost/cndb'
     # SECRET_KEY= 'B@Vv$st^<b^NJt/'
     # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://vivek01:Vikas#9789@mysql-server-demoflask.mysql.database.azure.com/cndb'
-    print(SQLALCHEMY_DATABASE_URI)
-    print(SECRET_KEY)
+    # print(SQLALCHEMY_DATABASE_URI)
+    # print(SECRET_KEY)
     SQLALCHEMY_TRACK_MODIFICATIONS = False
