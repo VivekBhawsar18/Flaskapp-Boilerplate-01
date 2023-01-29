@@ -18,7 +18,3 @@ app.register_blueprint(Test_bp , url_prefix='/test')
 @app.route('/')
 def home():
         return '<h1>Home page of Flask Application Factory Pattern</h1>'
-
-@app.route('/test/')
-def test_page():
-        return '<h1>Test page of Flask Application Factory Pattern</h1>'
