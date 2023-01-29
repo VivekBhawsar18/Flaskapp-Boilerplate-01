@@ -25,6 +25,7 @@ def create_app(config_class=Config):
 
     return app
 
+create_app()
 # from flask import Flask
 
 # app = Flask(__name__)
